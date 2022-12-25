@@ -34,7 +34,7 @@ let group = new THREE.Group();
 for (let x = 0; x < 30; x++) {
 for (let y = 0; y < 30; y++) {
 for (let z = 0; z < 30; z++) {
-let geometry = new THREE.BoxGeometry(0.75, 0.75, 0.75);
+let geometry = new THREE.BoxBufferGeometry(0.75, 0.75, 0.75);
 let material = new THREE.MeshNormalMaterial();
 let mesh = new THREE.Mesh(geometry, material);
 mesh.position.set(x - 15, y - 15, z - 15);
